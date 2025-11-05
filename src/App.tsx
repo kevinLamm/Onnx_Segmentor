@@ -20,7 +20,7 @@ import * as ort from "onnxruntime-web";
  */
 
 // ======== TUNE THESE TO MATCH YOUR MODEL'S IO NAMES & PRE/POST ========
-const MODEL_PATH = "/models/sam2_tiny.onnx"; // update to your model
+const MODEL_PATH = "/models/sam2_hiera_tiny_decoder_pr1.onnx"; // update to your model
 const IO_NAMES = {
   // Inputs
   image: "image", // float32 [1,3,H,W]
